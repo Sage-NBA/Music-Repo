@@ -14,7 +14,7 @@ function App() {
           <Icons />
         </aside>
         {/* Page Content */}
-        <main className="">
+        <main className="p-5">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/Library" element={<Library />} />
